@@ -1,0 +1,72 @@
+
+/* Aspectos Generales */ 
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    font-size: 1.2rem;
+    height: 80px;
+}
+.navbar-brand h2 {
+    font-weight: 500;
+}
+
+.logo_navbar {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* Header Hero Carousel*/
+/* header {
+    height: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    text-align: center;
+} */
+
+/* Quienes somos */
+.quienes-somos hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Destacados */
+.destacados hr {
+    margin: 0 auto;
+}
+.card {
+    margin: 0 auto; 
+    max-width: 18rem;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-text {
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.card-img-top {
+    max-height: 140px;
+}
+
+/* Footer */ 
+footer {
+
+}
+
+/* Responsive */
+
+/* @media screen and (max-width: 1400px) and (min-width: 992px){
+    .card-img-top {
+        max-height: 140px;
+    }
+} */
