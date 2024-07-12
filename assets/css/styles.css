@@ -18,8 +18,8 @@ body {
     transition: background-color 800ms linear;
 }
 .navbar-toggler {
-    color: #777777 !important;
-    border: 1px solid #FFFFFF80 !important;
+    color: #DDEFF080 !important;
+    border: 1px solid #DDEFF080 !important;
 }
 .navbar-toggler-icon {
     filter: invert(1);
