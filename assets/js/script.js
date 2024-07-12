@@ -42,3 +42,9 @@ window.addEventListener('scroll', function() {
         nav.classList.add('bg-transparent');
     }
 })
+
+
+
+
+    
+
