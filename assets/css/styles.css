@@ -16,6 +16,9 @@ body {
     font-size: 1.2rem;
     height: 80px;
     transition: background-color 800ms linear;
+}
+#navbarTogglerDemo02 {
+    transition: background-color 800ms linear;
 
 }
 .navbar-toggler {
@@ -115,5 +118,10 @@ footer {
     .quienes-somos__segunda-columna {
         display: flex;
         flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 991px) {
+    #navbarTogglerDemo02 {
+        background-color: #212529 !important;
     }
 }
