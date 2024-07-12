@@ -11,6 +11,30 @@ body {
     background-color: black;
     color: white;
 }
+
+/* Tooltips cambio de forma | color */
+.tooltip-inner {
+    padding: 10px;
+    background-color: #3b7933;
+    color: white;
+}
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
+    border-top-color: #3b7933;
+}
+.bs-tooltip-end .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before {
+    border-right-color: #3b7933;
+}
+.bs-tooltip-bottom .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before {
+    border-bottom-color: #3b7933;
+}
+.bs-tooltip-start .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before {
+    border-left-color: #3b7933;
+}
+
 /* Navbar */
 .navbar {
     font-size: 1.2rem;
