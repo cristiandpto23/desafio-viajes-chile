@@ -99,8 +99,9 @@ header img {
     font-size: 14px;
     font-weight: 300;
 }
- git s.card-img-top {
+ .card-img-top {
     max-height: 140px;
+    object-fit: cover;
 }
 
 /* Footer */ 
