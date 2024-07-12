@@ -2,23 +2,33 @@
 
 * {
     box-sizing: border-box;
-/*    scroll-behavior: smooth;*/
-
 }
+/* html {
+    scroll-behavior: smooth;
+} */
 body {
     background-color: black;
     color: white;
     font-family: "Montserrat", sans-serif;
 }
-
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 /* Navbar */
 .navbar {
     font-size: 1.2rem;
     height: 80px;
-
+}
+.navbar-toggler {
+    color: #777777 !important;
+    border: 1px solid #FFFFFF80 !important;
+}
+.navbar-toggler-icon {
+    filter: invert(1);
 }
 .navbar-brand h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .logo_navbar {
