@@ -1,3 +1,9 @@
+// JS BOOTSTRAP || Tooptips
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
+// JQUERY
 $(document).ready(function(){
     // Se añade a todos los elementos 'a' una función que se ejecuta con un click en ellos
     $("a").on('click', function(event) {
