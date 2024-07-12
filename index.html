@@ -162,7 +162,21 @@
                 <h2 class="col-12 text-center fw-light">CONTACTO</h2>
             </div>
             <hr>
-
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" name="contacto" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="InputAsunto" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="InputAsunto" name="contacto" required>
+                </div>
+                <div class="mb-3">
+                    <label for="InputMensaje" class="form-label">Mensaje</label><br>
+                    <textarea rows="5" name="contacto" id="InputMensaje" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
 
 
         </section>
