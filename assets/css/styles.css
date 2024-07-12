@@ -17,10 +17,6 @@ body {
     height: 80px;
     transition: background-color 800ms linear;
 }
-#navbarTogglerDemo02 {
-    transition: background-color 800ms linear;
-
-}
 .navbar-toggler {
     color: #777777 !important;
     border: 1px solid #FFFFFF80 !important;
