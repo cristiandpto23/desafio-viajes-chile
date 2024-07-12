@@ -1,8 +1,11 @@
 
 /* Aspectos Generales */ 
+
+
 body {
     background-color: black;
     color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Navbar */
@@ -11,11 +14,12 @@ body {
     height: 80px;
 }
 .navbar-brand h2 {
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .logo_navbar {
-    width: 50px;
+    width: 40px;
     margin-right: 10px;
 }
 
@@ -34,6 +38,16 @@ body {
     width: 90%;
     margin: 0 auto;
 }
+.quienes-somos__icon-container {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quienes-somos__icon-container i {
+    font-size: 1.5rem;
+} 
+
 
 /* Destacados */
 .destacados hr {
@@ -60,7 +74,22 @@ body {
 
 /* Footer */ 
 footer {
-
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+.footer__icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__icon-container i {
+    font-size: 1.4rem;
+    margin: 0 8px;
 }
 
 /* Responsive */
@@ -70,3 +99,17 @@ footer {
         max-height: 140px;
     }
 } */
+@media screen and (max-width: 425px) {
+    .footer-container h3 {
+        font-size: 1.15rem;
+    }
+    .footer__icon-container i {
+        margin: 0 4px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .quienes-somos__segunda-columna {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
