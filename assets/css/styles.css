@@ -1,11 +1,7 @@
 /* Aspectos Generales */ 
-
 * {
     box-sizing: border-box;
 }
-/* html {
-    scroll-behavior: smooth;
-} */
 body {
     background-color: black;
     color: white;
@@ -107,12 +103,6 @@ footer {
 }
 
 /* Responsive */
-
-/* @media screen and (max-width: 1400px) and (min-width: 992px){
-    .card-img-top {
-        max-height: 140px;
-    }
-} */
 @media screen and (max-width: 425px) {
     .footer-container h3 {
         font-size: 1.15rem;
