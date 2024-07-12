@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- Navbar | Bootstrap -->
     <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
         <div class="container">
             <a class="navbar-brand d-flex" href="#">
@@ -31,23 +31,23 @@
                         <a class="nav-link active text-white opacity-50" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white opacity-50">Quienes Somos</a>
+                        <a class="nav-link text-white opacity-50" href="#quienes-somos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white opacity-50">Destacados</a>
+                        <a class="nav-link text-white opacity-50" href="#destacados">Destacados</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-white opacity-50">Contacto</a>
+                        <a class="nav-link text-white opacity-50" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Header Hero Carousel -->
+    <!-- Header Hero Carousel | Bootstrap -->
     <header>
-        <div id="carouselExample" class="carousel slide">
+        <div id="carouselExample" class="carousel slide carousel-fade">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -73,8 +73,8 @@
     <!-- Main -->
     <main>
     
-    <!-- Quienes Somos -->
-        <section class="container quienes-somos py-5 d-none d-sm-block">
+    <!-- Quienes Somos | Cards Bootstrap -->
+        <section class="container quienes-somos py-5 d-none d-sm-block" id="quienes-somos">
             <div class="row">
                 <h2 class="col-12 text-center py-3 fw-light pb-4 opacity-75">¿QUIÉNES SOMOS?</h2>
             </div>
@@ -108,7 +108,7 @@
         </section>
 
         <!-- Destacados -->
-        <section class="container destacados py-5">
+        <section class="container destacados py-5" id="destacados">
             <div class="row">
                 <h2 class="col-12 text-center fw-light pb-4 opacity-75">DESTACADOS</h2>
             </div>
@@ -156,8 +156,8 @@
         </section>
 
 
-        <!-- Contacto -->
-        <section class="container contacto py-5">
+        <!-- Contacto | Formulario | Bootstrap -->
+        <section class="container contacto py-5 px-4" id="contacto">
             <div class="row">
                 <h2 class="col-12 text-center fw-light">CONTACTO</h2>
             </div>
@@ -187,10 +187,10 @@
         <div class="container footer-container px-md-4 px-0 w-75">
             <h3 class="me-auto fw-light my-auto">VIAJES CHILE</h3>
             <div class="ms-auto footer__icon-container">
-                <a href="#" target="_blank"><i class="fa-brands fa-github text-white"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-linkedin text-white"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-square-twitter text-white"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-square-facebook text-white"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github text-white"></i></a>
+                <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin text-white"></i></a>
+                <a href="https://x.com/" target="_blank"><i class="fa-brands fa-square-twitter text-white"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook text-white"></i></a>
             </div>
         </div>
     </footer>

@@ -1,7 +1,10 @@
-
 /* Aspectos Generales */ 
 
+* {
+    box-sizing: border-box;
+/*    scroll-behavior: smooth;*/
 
+}
 body {
     background-color: black;
     color: white;
@@ -12,26 +15,25 @@ body {
 .navbar {
     font-size: 1.2rem;
     height: 80px;
+
 }
 .navbar-brand h2 {
     font-size: 2rem;
     font-weight: 300;
 }
-
 .logo_navbar {
     width: 40px;
     margin-right: 10px;
 }
 
 /* Header Hero Carousel*/
-/* header {
-    height: 50% !important;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    color: #fff;
-    text-align: center;
-} */
+header img {
+    display: block;
+    min-height: 55vh;
+    max-height: 85vh;
+    max-width: 100vw;
+    object-fit: cover;
+} 
 
 /* Quienes somos */
 .quienes-somos hr {
